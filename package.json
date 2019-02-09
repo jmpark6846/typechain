@@ -1,0 +1,15 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "my first typescript and blockchain project",
+  "main": "index.js",
+  "repository": "git@github.com:jmpark6846/typechain.git",
+  "author": "jmpark6846 <jmpark6846@gmail.com>",
+  "license": "MIT",
+  "scripts": { 
+    "start": "tsc-watch --onSuccess  \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.1.37"
+  }
+}
